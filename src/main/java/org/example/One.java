@@ -8,7 +8,7 @@ public class One {
     @Test
     public void test()
     {
-        System.out.println("hi 1");
+        System.out.println("hi 10");
          System.out.println("hi 2");
         System.out.println("hi 9");
          System.out.println("hi 2");
