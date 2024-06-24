@@ -8,7 +8,7 @@ public class One {
     @Test
     public void test()
     {
-        System.out.println("hi 10");
+        System.out.println("hi 120");
          System.out.println("hi 3");
         System.out.println("hi 9");
          System.out.println("hi 2");
@@ -17,7 +17,7 @@ public class One {
     @BeforeTest
     public void test7()
     {
-        System.out.println("before test ");
+        System.out.println("before test1 ");
         System.out.println("before test added ");
     }
 
