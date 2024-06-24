@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="2" >
+    <listeners>
+        <listener class-name="org.example.Listeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/Administrator/IdeaProjects/TestNg">
+        <parameter name="URL" value="keerthana"></parameter>
+        <groups>
+            <run>
+
+                <include name="Smoke"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="org.example.Main"/>
+            <class name="org.example.Two">
+
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="b">
+        <parameter name="hi" value="sasi"></parameter>
+        <classes>
+            <class name="org.example.One">
+            </class>
+        </classes>
+    </test>
+</suite>
+
