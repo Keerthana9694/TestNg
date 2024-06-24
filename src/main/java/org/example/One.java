@@ -10,6 +10,7 @@ public class One {
     {
         System.out.println("hi 1");
         System.out.println("hi 9");
+         System.out.println("hi 2");
     }
 
     @BeforeTest
