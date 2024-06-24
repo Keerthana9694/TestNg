@@ -15,6 +15,7 @@ public class One {
     public void test7()
     {
         System.out.println("before test ");
+        System.out.println("before test added ");
     }
 
     @AfterTest
