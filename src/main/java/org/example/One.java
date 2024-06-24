@@ -9,6 +9,7 @@ public class One {
     public void test()
     {
         System.out.println("hi 1");
+        System.out.println("hi 9");
     }
 
     @BeforeTest
